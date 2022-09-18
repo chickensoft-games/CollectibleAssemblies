@@ -1,0 +1,11 @@
+<Project Sdk="Godot.NET.Sdk/4.0.0-beta1">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>CollectibleAssemblies</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.18.2" />
+  </ItemGroup>
+</Project>
